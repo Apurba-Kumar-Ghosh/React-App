@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/React-App/static/css/main.9c772113.chunk.css",
-    "main.js": "/React-App/static/js/main.76ba9cb3.chunk.js",
-    "main.js.map": "/React-App/static/js/main.76ba9cb3.chunk.js.map",
-    "runtime-main.js": "/React-App/static/js/runtime-main.e5b3b9c8.js",
-    "runtime-main.js.map": "/React-App/static/js/runtime-main.e5b3b9c8.js.map",
-    "static/js/2.bd55b221.chunk.js": "/React-App/static/js/2.bd55b221.chunk.js",
-    "static/js/2.bd55b221.chunk.js.map": "/React-App/static/js/2.bd55b221.chunk.js.map",
-    "index.html": "/React-App/index.html",
-    "precache-manifest.ea57570df007514e9fceac8d56f216ea.js": "/React-App/precache-manifest.ea57570df007514e9fceac8d56f216ea.js",
-    "service-worker.js": "/React-App/service-worker.js",
-    "static/css/main.9c772113.chunk.css.map": "/React-App/static/css/main.9c772113.chunk.css.map",
-    "static/js/2.bd55b221.chunk.js.LICENSE.txt": "/React-App/static/js/2.bd55b221.chunk.js.LICENSE.txt"
+    "main.css": "/React-Weather-App/static/css/main.9c772113.chunk.css",
+    "main.js": "/React-Weather-App/static/js/main.a46f4dbc.chunk.js",
+    "main.js.map": "/React-Weather-App/static/js/main.a46f4dbc.chunk.js.map",
+    "runtime-main.js": "/React-Weather-App/static/js/runtime-main.27d0bc82.js",
+    "runtime-main.js.map": "/React-Weather-App/static/js/runtime-main.27d0bc82.js.map",
+    "static/js/2.bd55b221.chunk.js": "/React-Weather-App/static/js/2.bd55b221.chunk.js",
+    "static/js/2.bd55b221.chunk.js.map": "/React-Weather-App/static/js/2.bd55b221.chunk.js.map",
+    "index.html": "/React-Weather-App/index.html",
+    "precache-manifest.2adb4d9be5fd0c22fc80e520c290f7b9.js": "/React-Weather-App/precache-manifest.2adb4d9be5fd0c22fc80e520c290f7b9.js",
+    "service-worker.js": "/React-Weather-App/service-worker.js",
+    "static/css/main.9c772113.chunk.css.map": "/React-Weather-App/static/css/main.9c772113.chunk.css.map",
+    "static/js/2.bd55b221.chunk.js.LICENSE.txt": "/React-Weather-App/static/js/2.bd55b221.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e5b3b9c8.js",
+    "static/js/runtime-main.27d0bc82.js",
     "static/js/2.bd55b221.chunk.js",
     "static/css/main.9c772113.chunk.css",
-    "static/js/main.76ba9cb3.chunk.js"
+    "static/js/main.a46f4dbc.chunk.js"
   ]
 }
