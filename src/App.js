@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import CardEngine from "./CardEngine.js";
 
-function App() {
+const App = () => {
+  React.useEffect(() => {
+    window.alert("Click anywhere on the card to enter the City of your choice");
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="card-container">
+      <CardEngine location="Kolkata" />
+      <CardEngine location="London" />
+      <CardEngine location="New York" />
     </div>
   );
-}
+};
 
 export default App;

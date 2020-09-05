@@ -1,38 +1,67 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Long+Cang&family=Ubuntu:ital,wght@1,400;1,500;1,700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?cs=srgb&dl=pexels-elia-clerici-912110.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+}
+.root {
+  height: 100vh;
+}
+
+.card {
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  min-height: 20rem;
+  border-radius: 5%;
+}
+.card-city {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-city:hover {
+  cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+span {
+  font-style: italic;
+  font-weight: bolder;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn {
+  border: none;
+  background: black;
+  border-radius: 5%;
+  padding: 0.5em 1em;
+  color: white;
+  transition: transform 0.5s;
+}
+.btn:hover,
+btn:focus {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+p {
+  font-weight: bolder;
+}
+.card-city-input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+input[type="text"] {
+  width: 70%;
+  margin-bottom: 2rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
